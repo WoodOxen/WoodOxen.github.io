@@ -1,0 +1,22 @@
+global:
+  chinese: 中文
+  english: 英文
+
+site:
+  name: 上海交通大学智能车实验室
+  description: 测试
+
+main:
+  welcomeSection:
+    anchor: willkommen
+    heading: Willkommen auf dieser tollen Webseite!
+    p1: Hunderttausende Menschen sind von dieser Seite begeistert. Sie auch?
+
+# Title
+titles:
+  home: 首页
+  news: 新闻
+  research: 研究
+  teaching: 教学
+  people: 人员
+  about: 关于

@@ -1,0 +1,22 @@
+global:
+  chinese: Chinese
+  english: English
+
+site:
+  name: CyberC3
+  description: test
+
+main:
+  welcomeSection:
+    anchor: welcome
+    heading: Welcome to this marvelous webseite.
+    p1: Hundreds of thousands of people are amazed by this site. Are you?
+
+# Title
+titles:
+  home: Home
+  news: News
+  research: Research
+  teaching: Teaching
+  people: People
+  about: About
