@@ -5,8 +5,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
   - jekyll-multiple-languages-plugin
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-toc
 
 # Exclude
 exclude:
@@ -22,7 +24,9 @@ exclude:
 # Multiple Language Support
 languages: ["zh-cn", "en"]
 exclude_from_localizations: ["assets"]
-defaultLang: zh-cn
-languageNames:
-  zh-cn: 中文
-  en: English
+
+# Markdown
+kramdown:
+    syntax_highlighter: rouge
+    parse_block_html: true
+    input: GFM
