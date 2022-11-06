@@ -27,9 +27,9 @@ jobs:
       - name: build the site in the jekyll/jekyll container
         run: |
           docker run \
-          -v ${{ github.workspace }}:/srv/jekyll \
-          -v ${{ github.workspace }}/_site:/srv/jekyll/_site\
-          jekyll/jekyll:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+            -v ${{ github.workspace }}:/srv/jekyll \
+            -v ${{ github.workspace }}/_site:/srv/jekyll/_site\
+            jekyll/jekyll:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
 
       - name: push the site to the gh-pages branch
         if: ${{ github.event_name == 'push' }}
