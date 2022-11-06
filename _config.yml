@@ -20,6 +20,7 @@ exclude:
   - Gemfile.lock
   - assets/
   - jekyll.sh
+  - README.md
 
 # Multiple Language Support
 languages: ["zh-cn", "en"]

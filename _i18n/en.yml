@@ -1,7 +1,9 @@
 global:
   chinese: Chinese
   english: English
-
+langs:
+  zh-cn: Chinese
+  en: English
 site:
   name: CyberC3
   description: test

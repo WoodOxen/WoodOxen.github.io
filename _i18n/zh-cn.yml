@@ -1,6 +1,8 @@
 global:
-  chinese: 中文
-  english: 英文
+  
+langs:
+  zh-cn: 中文
+  en: 英文
 
 site:
   name: 上海交通大学智能车实验室

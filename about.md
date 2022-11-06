@@ -1,6 +1,6 @@
 ---
 layout: page
-title: titles.about
+title: 关于
 
 namespace: about
 permalink: /about/
