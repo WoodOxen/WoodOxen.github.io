@@ -22,8 +22,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions:checkout@v2
-      
+      - uses: actions/checkout@v2
+
       - name: build the site in the jekyll/jekyll container
         run: |
           docker run \
