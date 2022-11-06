@@ -10,6 +10,11 @@ plugins:
   - jekyll-gist
   - jekyll-toc
 
+# Collections
+collections:
+  news:
+    output: true
+
 # Exclude
 exclude:
   - .github/
